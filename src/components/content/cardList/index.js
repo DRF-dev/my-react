@@ -13,10 +13,10 @@ const CardList = ({ movies }) => (
       return (
         <Col xs={3} sm={3}>
           <Card>
-            <Card.Img variant="top" src={img} />
+            <Card.Img variant="top" src={img} className="img-cards" />
             <Card.Body>
               <Card.Title>{title}</Card.Title>
-              <Card.Text>{resume}</Card.Text>
+              <Card.Text className="resume">{resume}</Card.Text>
               <Button variant="primary">Show</Button>
             </Card.Body>
           </Card>
