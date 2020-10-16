@@ -1,0 +1,31 @@
+$bgNavbar: #505050;
+@mixin lineOnBottom {
+  border-bottom: 1px solid rgba($color: $bgNavbar, $alpha: 0.2);
+  padding: 4% 0 20px 0;
+}
+
+#navbar {
+  width: 100%;
+  background-color: $bgNavbar;
+  .toWhite {
+    color: white;
+  }
+}
+
+#bandeAnnonces {
+  .carroussel {
+    @include lineOnBottom();
+  }
+  .cards {
+    margin-top: 2%;
+  }
+}
+
+#signin {
+  .form {
+    @include lineOnBottom();
+  }
+  .kfc {
+    padding: 8% 0;
+  }
+}
