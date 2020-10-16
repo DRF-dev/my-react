@@ -37,7 +37,7 @@ const listOfMovies = [
 const Content = () => (
   <div id="bandeAnnonces">
     <div className="carroussel">
-      <span>Bandes Annonces</span>
+      <h2>Bandes Annonces</h2>
       <ItemCarroussel images={[cow, goats, treeGoat]} />
     </div>
     <div className="cards">
