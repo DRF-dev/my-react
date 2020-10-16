@@ -1,5 +1,4 @@
 import React from 'react';
-import { Film } from 'react-bootstrap-icons';
 
 import cow from './assets/cow.jpg';
 import goats from './assets/goats.jpg';
@@ -38,7 +37,6 @@ const listOfMovies = [
 const Content = () => (
   <div id="bandeAnnonces">
     <div className="carroussel">
-      <Film />
       <span>Bandes Annonces</span>
       <ItemCarroussel images={[cow, goats, treeGoat]} />
     </div>

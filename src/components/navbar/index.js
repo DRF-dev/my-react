@@ -6,9 +6,11 @@ import {
   FormControl,
   Button,
 } from 'react-bootstrap';
+import { Film } from 'react-bootstrap-icons';
 
 const Navigation = () => (
   <Navbar bg="ligth" id="navbar">
+    <Film className="toWhite icon" />
     <Navbar.Brand className="toWhite">MyMovies</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
